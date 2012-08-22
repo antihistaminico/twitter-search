@@ -1,0 +1,33 @@
+[alias]
+    st = status -sb
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    tlg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    tlog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    fet = fetch -p --all
+    tpull = pull
+    tpush = push
+    tcommit = commit
+    tfetch = fetch
+    unstage = reset HEAD --
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[user]
+	name = Mario Álvarez
+	email = ahoy@m4grio.me
+	signingkey = D6E898EA
+[push]
+	default = simple
+[core]
+	filemode = false
+    excludesfile = /Users/m4grio/.gitignore
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[help]
+	autocorrect = 1

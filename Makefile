@@ -9,3 +9,4 @@ vscode-install:
 
 vscodeinsiders-install:
 	install -m 0644 vscodeinsiders/settings.json "$(HOME)/Library/Application Support/Code - Insiders/User/settings.json"
+	install -m 0644 vscodeinsiders/keybindings.json "$(HOME)/Library/Application Support/Code - Insiders/User/keybindings.json"

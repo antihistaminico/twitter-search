@@ -1,0 +1,30 @@
+// Code - Insiders
+{
+    "editor.cursorStyle": "underline-thin",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": true,
+    "editor.renderIndentGuides": true,
+    "explorer.autoReveal": false,
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "go.formatOnSave": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "window.restoreWindows": "all",
+    "window.title": "${activeEditorShort}${separator}${rootName}",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Arc Dark",
+    "workbench.sideBar.location": "right"
+}

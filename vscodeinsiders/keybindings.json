@@ -1,11 +1,6 @@
 [
     // (Integrated) terminal stuff
     {
-        "key": "ctrl+shift+`",
-        "command": "workbench.action.terminal.newSelectWorkspace",
-        "when": ""
-    },
-    {
         "key": "cmd+w",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"

@@ -13,7 +13,7 @@
         "**/*.pyc": true,
         "**/.DS_Store": true,
         "**/.git": true,
-        "**/.hg": true,
+        "** /.hg": true,
         "**/.svn": true,
         "**/CVS": true
     },

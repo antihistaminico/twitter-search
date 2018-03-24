@@ -31,3 +31,5 @@
 	insteadOf = https://github.com/
 [help]
 	autocorrect = 1
+[commit]
+	gpgsign = 1

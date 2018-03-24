@@ -16,7 +16,7 @@
 [user]
 	name = Mario Álvarez
 	email = ahoy@m4grio.me
-	signingkey = D6E898EA
+	signingkey = A2D784332956AD69640A294777C4CDB7D6E898EA
 [push]
 	default = simple
 [core]

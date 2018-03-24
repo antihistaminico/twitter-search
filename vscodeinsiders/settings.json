@@ -27,5 +27,6 @@
     "window.title": "${activeEditorShort}${separator}${rootName}",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Arc Dark",
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "workbench.panel.defaultLocation": "bottom",
 }

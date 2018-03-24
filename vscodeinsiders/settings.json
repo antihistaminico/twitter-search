@@ -19,7 +19,7 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "go.formatOnSave": true,
+    "go.autocompleteUnimportedPackages": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.osx": "/bin/zsh",

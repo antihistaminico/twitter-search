@@ -6,6 +6,7 @@
     "editor.fontSize": 13,
     "editor.minimap.enabled": true,
     "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": false,
     "files.exclude": {

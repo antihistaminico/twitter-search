@@ -14,9 +14,9 @@
 	diff = auto
 	status = auto
 [user]
-	name = Mario Álvarez
-	email = ahoy@m4grio.me
-	signingkey = A2D784332956AD69640A294777C4CDB7D6E898EA
+    name = Tanja Alva
+    email = tanja.alva@gmail.com
+    signingkey = 65A16E5CB43B1496106E79CA619BD8AB97F0108E
 [push]
 	default = simple
 [core]

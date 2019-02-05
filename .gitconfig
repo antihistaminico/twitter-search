@@ -1,35 +1,35 @@
 [alias]
-	st = status -sb
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	tlg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	tlog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	fet = fetch -p --all
-	tpull = pull
-	tpush = push
-	tcommit = commit
-	tfetch = fetch
-	unstage = reset HEAD --
+    st = status -sb
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    tlg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    tlog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    fet = fetch -p --all
+    tpull = pull
+    tpush = push
+    tcommit = commit
+    tfetch = fetch
+    unstage = reset HEAD --
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+    branch = auto
+    diff = auto
+    status = auto
 [user]
     name = Tanja Alva
     email = tanja.alva@gmail.com
     signingkey = 65A16E5CB43B1496106E79CA619BD8AB97F0108E
 [push]
-	default = simple
+    default = simple
 [core]
-	filemode = false
-    excludesfile = /Users/m4grio/.gitignore
+    filemode = false
+    excludesfile = ~/.gitignore
 [pager]
-	diff = diff-so-fancy | less --tabs=1,5 -RFX
-	show = diff-so-fancy | less --tabs=1,5 -RFX
+    diff = diff-so-fancy | less --tabs=1,5 -RFX
+    show = diff-so-fancy | less --tabs=1,5 -RFX
 [url "git@bitbucket.org:"]
-	insteadOf = https://bitbucket.org/
+    insteadOf = https://bitbucket.org/
 [url "git@github.com:"]
-	insteadOf = https://github.com/
+    insteadOf = https://github.com/
 [help]
-	autocorrect = 1
+    autocorrect = 1
 [commit]
-	gpgsign = 1
+    gpgsign = 1

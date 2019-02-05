@@ -10,6 +10,7 @@
     tfetch = fetch
     unstage = reset HEAD --
 [color]
+    ui = auto
     branch = auto
     diff = auto
     status = auto

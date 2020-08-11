@@ -16,4 +16,4 @@ gitconfig-install:
 	install -m 0644 .gitconfig $(HOME)/.gitconfig
 gitconfig-uninstall:
 	yes | rm gitconfig $(HOME)/.gitconfig || true
-gitconfig-update: gitconfig-delete gitconfig-install
+gitconfig-update: gitconfig-uninstall gitconfig-install

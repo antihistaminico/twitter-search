@@ -17,7 +17,7 @@
 [user]
   name = Tanja Alva
   email = tanja.alva@gmail.com
-  signingkey = 65A16E5CB43B1496106E79CA619BD8AB97F0108E
+  signingkey = 65A16E5CB43B1496106E79CA619BD8AB97F0108E!
 [push]
   default = simple
 [core]
@@ -32,7 +32,9 @@
   insteadOf = https://github.com/
 [help]
   autocorrect = 1
+[init]
+  defaultBranch = main
 [commit]
-  gpgsign = 1
+  gpgsign = true
 [hub]
   protocol = git

@@ -1,31 +1,54 @@
-// Code
 {
-    "editor.cursorStyle": "underline-thin",
-    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Cascadia Code Regular",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 1.6,
     "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": true,
-    "editor.renderWhitespace": "boundary",
-    "explorer.autoReveal": false,
-    "extensions.ignoreRecommendations": false,
-    "files.exclude": {
-        "**/*.pyc": true,
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "** /.hg": true,
-        "**/.svn": true,
-        "**/CVS": true
-    },
+    "editor.wordWrap": "on",
+    "editor.glyphMargin": false,
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+    "editor.showFoldingControls": "mouseover",
+    "editor.renderWhitespace": "selection",
+    "editor.rulers": [
+        79
+    ],
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Pink Cat Boo",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "workbench.layoutControl.type": "toggles",
+    "breadcrumbs.enabled": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "window.restoreWindows": "all",
-    "window.title": "${activeEditorShort}${separator}${rootName}",
-    "window.zoomLevel": 0,
-    "workbench.sideBar.location": "right",
-    "workbench.panel.defaultLocation": "bottom",
-    "workbench.colorTheme": "Arc+ (Dark Monochrome)",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "settings.cycle": [
+        {
+          "id": "toggleCleanEditor",
+          "values": [
+            {
+                "workbench.statusBar.visible": true,
+                "editor.lineNumbers": "on",
+                "workbench.editor.showTabs": true,
+                "editor.minimap.enabled": true,
+                "editor.showFoldingControls": "mouseover",
+            },
+            {
+                "workbench.statusBar.visible": false,
+                "editor.lineNumbers": "off",
+                "workbench.editor.showTabs": false,
+                "editor.minimap.enabled": false,
+                "editor.showFoldingControls": "never",
+            }
+          ]
+        }
+    ],
+    "[python]": {
+        "editor.detectIndentation" : false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+    },
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
 }

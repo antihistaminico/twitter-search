@@ -1,0 +1,11 @@
+[
+  {
+      "key": "ctrl+alt+a",
+      "command": "wwm.aligncode"
+  },
+  {
+      "key": "ctrl+cmd+l",
+      "name": "Toggle Clean Editor",
+      "command": "settings.cycle.toggleCleanEditor",
+  }
+]

@@ -11,9 +11,9 @@ uninstall:
 	@make gitconfig-uninstall
 
 .PHONY: git-install gitconfig-uninstall gitconfig-update
-$(HOME)/.gitconfig: git-install
+$(HOME)/.gitconfig: gitconfig-install
 gitconfig-install:
 	install -m 0644 .gitconfig $(HOME)/.gitconfig
 gitconfig-uninstall:
-	yes | rm gitconfig $(HOME)/.gitconfig || true
+	yes | rm $(HOME)/.gitconfig || true
 gitconfig-update: gitconfig-uninstall gitconfig-install
